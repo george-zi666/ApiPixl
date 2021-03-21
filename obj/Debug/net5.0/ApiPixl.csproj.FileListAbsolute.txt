@@ -38,3 +38,4 @@ C:\Users\79994\Desktop\git\ApiPixl\ApiPixl\obj\Debug\net5.0\ref\ApiPixl.dll
 C:\Users\79994\Desktop\git\ApiPixl\ApiPixl\obj\Debug\net5.0\ApiPixl.pdb
 C:\Users\79994\Desktop\git\ApiPixl\ApiPixl\obj\Debug\net5.0\ApiPixl.genruntimeconfig.cache
 C:\Users\79994\Desktop\git\ApiPixl\ApiPixl\obj\Debug\net5.0\ApiPixl.csproj.CopyComplete
+C:\Users\79994\Desktop\git\ApiPixl\ApiPixl\obj\Debug\net5.0\Razor\Views\Home\Orders.cshtml.g.cs

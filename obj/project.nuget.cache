@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nZdT1f6ns46qwNvm/Cd5PmeqgMD2qSnhvUuq7xmFt1BHqFbop1gL5NpCG6HYfOlfutDH0+Y1j3CWctoXeC6fTQ==",
+  "dgSpecHash": "vEF56F5LD9VQ/xEpcP4nUvTyNxlm2UeL42O+u7j1j7tJ2JVPYQOIRFT6n0v53Cgf/dmicck/MasTN5/3u8O0ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\79994\\Desktop\\git\\ApiPixl\\ApiPixl\\ApiPixl.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\79994\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
