@@ -20,13 +20,13 @@
         api_password;
     $(document).ready(function () {
         $("#tokens").click(function () {
-            $.get("http://api.pixlpark.com/oauth/requesttoken", function (response_rt) {https://cors-anywhere.herokuapp.com/
+            $.get("https://cors-anywhere.herokuapp.com/http://api.pixlpark.com/oauth/requesttoken", function (response_rt) {
                 //response
                 oauth_token = response_rt.RequestToken;
                 api_password = sha1(oauth_token + privatekey);
                 atoken_url = oauth_token + "&grant_type=api&username=" + publickey + "&password=" + api_password;
                 $("#RToken").text("RequestToken : " + oauth_token);
-                $.get("http://api.pixlpark.com/oauth/accesstoken?oauth_token=" + atoken_url, function (response_at) {
+                $.get("https://cors-anywhere.herokuapp.com/http://api.pixlpark.com/oauth/accesstoken?oauth_token=" + atoken_url, function (response_at) {
                     //response
                     oauth_token = response_at.AccessToken;
                     $("#AToken").text("AccessToken : " + oauth_token);
@@ -36,7 +36,7 @@
         });
         $("#orders").click(function () {
             if (oauth_token) {
-                $.get("http://api.pixlpark.com/orders?Oauth_token=" + oauth_token + "&take=1", function (response_orders) {
+                $.get("https://cors-anywhere.herokuapp.com/http://api.pixlpark.com/orders?Oauth_token=" + oauth_token + "&take=1", function (response_orders) {
                     //response
                     var order_info = response_orders.Result[0];
                     $('#OTitle').html("Последний заказ : " + order_info.Title);
